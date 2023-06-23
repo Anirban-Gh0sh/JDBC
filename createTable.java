@@ -13,7 +13,7 @@ public class JDBC
     {
         String url="jdbc:mysql://localhost:3306/STUDENT";
         String userName="root";
-        String password="Anirban@123";
+        String password="Password";
         String query="CREATE TABLE CSE(REG_NO INT PRIMARY KEY,NAME VARCHAR(40),PHONE_NUMBER BIGINT,GENDER VARCHAR(1),CITY VARCHAR(50) DEFAULT 'Jamshedpur');";
         
         try
